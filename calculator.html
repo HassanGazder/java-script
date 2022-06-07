@@ -15,9 +15,9 @@
             <input type="text" name="answer">
             <div class="buttons">
 
-                <input type="button" value="AC " onclick="form.answer.value = ''" class="A-C">
-                <input type="button" value="[+-]" class="add">
-                <input type="button" value="%" class="divide">
+                <input type="button" value="AC " onclick="form.answer.value = ''">
+                <input type="button" value="[+-]">
+                <input type="button" value="%">
                 <input type="button" value="/" onclick="form.answer.value += '/'">
 
 
@@ -44,12 +44,10 @@
                 <input type="button" value="3" onclick="form.answer.value += '3'">
                 <input type="button" value="+" onclick="form.answer.value += '+'">
 
-
-                <input type="button" value="0" onclick="form.answer.value += '0' " class="A-C">
+           
+                <input class="" type="button" value="0" onclick="form.answer.value += '0'">
                 <input type="button" value="." onclick="form.answer.value += '.' ">
-                <input type="button" value="=" onclick="form.answer.value = eval(form.answer.value)" class="A-C">
-
-
+                <input type="button" value="=" onclick="form.answer.value = eval(form.answer.value)">
 
             </div>
 
